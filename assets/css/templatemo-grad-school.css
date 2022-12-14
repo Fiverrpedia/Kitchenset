@@ -1,3 +1,11 @@
+/*
+    
+TemplateMo 557 Grad School
+
+https://templatemo.com/tm-557-grad-school
+
+*/
+
 @import url(fontawesome.css);
 @import url("<link href="https://fonts.googleapis.com/css?family=Montserrat:100, 200, 300, 400, 500, 600, 700, 800, 900" rel="stylesheet">") ; body {
   font-family: "Montserrat", sans-serif;
@@ -6,12 +14,12 @@
 /* Basic */
 
 a {
-  color: #3cf;
+  color: rgb(22, 45, 255);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(29, 51, 255);
+  color: rgb(24, 82, 255);
   text-decoration: none;
 }
 
@@ -120,7 +128,7 @@ a.menu-link {
   }
   nav[role="navigation"] li:hover a,
   nav[role="navigation"] li.active a {
-    color: #2541f5;
+    color: #f5a425;
   }
 
   @media screen and (min-width: 951px) {
