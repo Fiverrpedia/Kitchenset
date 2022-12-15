@@ -7,7 +7,8 @@ https://templatemo.com/tm-557-grad-school
 */
 
 @import url(fontawesome.css);
-@import url("<link href="https://fonts.googleapis.com/css?family=Montserrat:100, 200, 300, 400, 500, 600, 700, 800, 900" rel="stylesheet">") ; body {
+@import url("<link href="https://fonts.googleapis.com/css?family=Montserrat:100, 200, 300, 400, 500, 600, 700, 800, 900" rel="stylesheet">");
+body {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -19,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: rgb(24, 82, 255);
+  color: rgb(59, 108, 255);
   text-decoration: none;
 }
 
@@ -245,7 +246,7 @@ a.menu-link {
   margin-left: 0px;
   margin-bottom: 15px;
   padding-bottom: 15px;
-  border-bottom: 1px solid #121b2f;
+  border-bottom: 1px solid #000000;
 }
 
 .main-menu li .sub-menu li:first-child {
@@ -308,7 +309,7 @@ a.menu-link {
 
 .video-overlay {
   position: absolute;
-  background-color: rgba(51, 51, 51, 0.85);
+  background-color: rgba(0, 0, 0, 0.85);
   top: 0;
   left: 0;
   bottom: 7px;
@@ -329,7 +330,7 @@ a.menu-link {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #fff;
+  color: rgb(108, 137, 255);
   letter-spacing: 1px;
 }
 
@@ -339,7 +340,7 @@ a.menu-link {
   font-size: 64px;
   text-transform: uppercase;
   font-weight: 800;
-  color: #fff;
+  color: rgb(73, 134, 255);
   letter-spacing: 1px;
 }
 
@@ -400,7 +401,7 @@ section.features .col-4 {
 }
 
 .features-content:hover {
-  background-color:#2556f5;;
+  background-color: #2556f5;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
 }
 
@@ -478,7 +479,7 @@ section.features .col-4 {
 /* Why Choosing Us */
 
 section.why-us {
-  background-image: url(../images/download\ \(12\).jpg);
+  background-image: url(../images/Black\ Plain.jpg);
   background-color: #172238;
   background-repeat: no-repeat;
   background-size: cover;
@@ -556,12 +557,12 @@ section.why-us {
   color: #2556f5;
 }
 #tabs ul .ui-tabs-active a:after {
-  background-color:#2556f5;;
+  background-color: #2556f5;
   width: 15px;
   height: 15px;
 }
 #tabs ul .ui-tabs-active a:before {
-  border-color:#2556f5;;
+  border-color: #2556f5;
 }
 #tabs h4 {
   margin-top: 60px;
@@ -625,7 +626,7 @@ section.coming-soon .continer h4 {
 }
 section.coming-soon .continer h4 em {
   font-style: normal;
-  color: #2556f5;;
+  color: #2556f5;
 }
 
 @media screen and (max-width: 767px) {
@@ -810,8 +811,6 @@ section.courses .item .down-content p {
   margin-bottom: 25px;
 }
 
-
-
 section.courses .item .down-content .text-button-pay {
   float: right;
   display: inline-block;
@@ -884,7 +883,7 @@ section.video .left-content h4 {
 }
 section.video .left-content h4 em {
   font-style: normal;
-  color: #2556f5;;
+  color: #2556f5;
 }
 
 section.video .left-content .main-button {
